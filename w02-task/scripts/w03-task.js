@@ -28,7 +28,7 @@ function Subtract(num1, num2){
     return difference;
 }
 
-function addNumbers(){
+function subtractNumbers(){
     // read from input fields
     const num1 = parseInt(document.getElementById('subtract1').value);
     const num2 = parseInt(document.getElementById('subtract2').value);
@@ -48,7 +48,7 @@ function Multiply(num1, num2){
     return product;
 }
 
-function addNumbers(){
+function multiplyNumbers(){
     // read from input fields
     const num1 = parseInt(document.getElementById('factor1').value);
     const num2 = parseInt(document.getElementById('factor2').value);
@@ -64,19 +64,93 @@ document.getElementById('multiplyNumbers').addEventListener('click', multiplyNum
 
 /* Open Function Use - Divide Numbers */
 
+function Divide(num1, num2){
+    const quotient = num1 / num2;
+    return quotient;
+}
+
+function divideNumbers(){
+    // read from input fields
+    const num1 = parseInt(document.getElementById('dividend').value);
+    const num2 = parseInt(document.getElementById('divisor').value);
+    // get the quotient of the input numbers
+    const quotient = Divide(num1, num2);
+    // place the quotient into the browser field
+    const answerField = document.getElementById('quotient');
+    answerField.value = quotient;
+}
+
+document.getElementById('divideNumbers').addEventListener('click', divideNumbers);
+
 
 /* Decision Structure */
 
+// Define function 'Get Total Due'
+
+function discount(subtotal){
+    const total = subtotal * 0.85;
+    return total;
+}
+
+function applyDiscount(){
+    // read from input fields
+    const subtotal = parseFloat(document.getElementById('subtotal').value);
+    // conditional Logic
+    var check = document.getElementById('member');
+    if (member.checked){
+        // member gets a 15% discount = subtotal * 0.85 
+        total = discount(subtotal);
+    }else{
+        // no discount
+       total = subtotal;
+    }
+    // place the total dollar amount into the browser field
+    // Not the actual total
+    const span_total = document.getElementById('total');
+    span_total.textContent = ('$' + total.toFixed(2));
+}
+
+document.getElementById('getTotal').addEventListener('click', applyDiscount);
 
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
 
+let numbersArray = [1,2,3,4,5,6,7,8,9,10,11,12,13];
+
+document.getElementById('array').innerHTML = numbersArray
+
 /* Output Odds Only Array */
+
+document.querySelector('#odds').innerHTML = numbersArray.filter(number => (number+1) % 2 === 0);
 
 /* Output Evens Only Array */
 
+document.querySelector('#evens').innerHTML = numbersArray.filter(number => number % 2 === 0);
+
 /* Output Sum of Org. Array */
+
+document.getElementById('sumOfArray').innerHTML = numbersArray.reduce(arraySum);
+
+function arraySum(total, number){
+    return total + number;
+}
 
 /* Output Multiplied by 2 Array */
 
+document.getElementById('multiplied').innerHTML = numbersArray.map(double);
+
+function double(x){
+    return x * 2;
+}
+
 /* Output Sum of Multiplied by 2 Array */
+
+document.getElementById('sumOfMultiplied').innerHTML = numbersArray.map(double).reduce(add);
+
+function double(x){
+    return x * 2;
+}
+
+function add(sum, x){
+    return sum + x;
+}
