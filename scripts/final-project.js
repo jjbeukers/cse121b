@@ -53,17 +53,17 @@ const sortBy = (plants) => {
     reset();
     const filter = document.getElementById('sortBy').value;
     switch (filter) {
-      case 'utah':
-        displayPlants(plants.filter((plant) => plant.location.includes('Utah')));
+      case 'Zone4':
+        displayPlants(plants.filter((plant) => plant.location.includes('Zone 4')));
         break;
-      case 'notutah':
-        displayPlants(plants.filter((plant) => !plant.location.includes('Utah')));
+      case 'Zone5':
+        displayPlants(plants.filter((plant) => plant.location.includes('Zone 5')));
         break;
-      case 'older':
-        displayPlants(plants.filter((plant) => new Date(plant.plantDate) < new Date(1950, 0, 1)));
+      case 'Zone6':
+        displayPlants(plants.filter((plant) => plant.location.includes('Zone 6')));
         break;
-      case 'all':
-        displayPlants(plants);
+      case 'Zone7':
+        displayPlants(plants.filter((plant) => plant.location.includes('Zone 7')));
         break;
       default:
         console.log('Invalid filter');
