@@ -1,44 +1,146 @@
 [
     {
-      "templeName": "Tomatoes",
-      "location": "Aba, Nigeria",
-      "dedicated": "2005, August, 7",
-      "area": 11500,
+      "plantName": "Tomatoes",
+      "location": "Zone 4",
+      "plantDate": "On or around May 15th",
       "imageUrl": "images/red-ripe-tomato-plants.jpg"
     },
     {
-      "templeName": "Corn",
-      "location": "Cedar City, Utah, United States",
-      "dedicated": "2017, December, 10",
-      "area": 42657,
+      "plantName": "Corn",
+      "location": "Zone 4",
+      "plantDate": "On or around June 1st",
       "imageUrl": "images/shutterstock_616104491-scaled.jpg"
     },
     {
-      "templeName": "Snap Peas",
-      "location": "Manti, Utah, United States",
-      "dedicated": "1888, May, 21",
-      "area": 74792,
+      "plantName": "Snap Peas",
+      "location": "Zone 4",
+      "plantDate": "Plant in succession starting mid-April",    
       "imageUrl": "images/sugar_snap_peas.jpg"
     },
     {
-      "templeName": "Carrots",
-      "location": "Payson, Utah, United States",
-      "dedicated": "2015, June, 7",
-      "area": 96630,
+      "plantName": "Carrots",
+      "location": "Zone 4",
+      "plantDate": "On or around June 1st",
       "imageUrl": "images/Carrots-in-Containers-.jpg"
     },
     {
-      "templeName": "Peppers",
-      "location": "Yigo, Guam",
-      "dedicated": "2020, May, 2",
-      "area": 6861,
+      "plantName": "Peppers",
+      "location": "Zone 4",
+      "plantDate": "On or around May 15th",
       "imageUrl": "images/bell-pepper.jpg"
     },
     {
-      "templeName": "Zucchini",
-      "location": "Provo, Utah, United States",
-      "dedicated": "2016, March, 20",
-      "area": 85084,
+      "plantName": "Zucchini",
+      "location": "Zone 4",
+      "plantDate": "On or around May 15th",
       "imageUrl": "images/zucchini.jpg"
-    }
+    },
+    {
+        "plantName": "Tomatoes",
+        "location": "Zone 5",
+        "plantDate": "On or around April 15th",
+        "imageUrl": "images/red-ripe-tomato-plants.jpg"
+      },
+      {
+        "plantName": "Corn",
+        "location": "Zone 5",
+        "plantDate": "On or around May 1st",
+        "imageUrl": "images/shutterstock_616104491-scaled.jpg"
+      },
+      {
+        "plantName": "Snap Peas",
+        "location": "Zone 5",
+        "plantDate": "Plant in succession starting mid-March",
+        "imageUrl": "images/sugar_snap_peas.jpg"
+      },
+      {
+        "plantName": "Carrots",
+        "location": "Zone 5",
+        "plantDate": "Around mid-April",
+        "imageUrl": "images/Carrots-in-Containers-.jpg"
+      },
+      {
+        "plantName": "Peppers",
+        "location": "Zone 5",
+        "plantDate": "On or around May 1st",
+        "imageUrl": "images/bell-pepper.jpg"
+      },
+      {
+        "plantName": "Zucchini",
+        "location": "Zone 5",
+        "plantDate": "On or around May 1st",
+        "imageUrl": "images/zucchini.jpg"
+      },
+      {
+        "plantName": "Tomatoes",
+        "location": "Zone 6",
+        "plantDate": "On or around March 1st",
+        "imageUrl": "images/red-ripe-tomato-plants.jpg"
+      },
+      {
+        "plantName": "Corn",
+        "location": "Zone 6",
+        "plantDate": "On or around April 15th",
+        "imageUrl": "images/shutterstock_616104491-scaled.jpg"
+      },
+      {
+        "plantName": "Snap Peas",
+        "location": "Zone 6",
+        "plantDate": "Plant in succession around the beginning of March",
+        "imageUrl": "images/sugar_snap_peas.jpg"
+      },
+      {
+        "plantName": "Carrots",
+        "location": "Zone 6",
+        "plantDate": "On or around April 1st",
+        "imageUrl": "images/Carrots-in-Containers-.jpg"
+      },
+      {
+        "plantName": "Peppers",
+        "location": "Zone 6",
+        "plantDate": "On or around April 15th",
+        "imageUrl": "images/bell-pepper.jpg"
+      },
+      {
+        "plantName": "Zucchini",
+        "location": "Zone 6",
+        "plantDate": "On or around April 15th",
+        "imageUrl": "images/zucchini.jpg"
+      },
+      {
+          "plantName": "Tomatoes",
+          "location": "Zone 7",
+          "plantDate": "On or around Feb 15th",
+          "imageUrl": "images/red-ripe-tomato-plants.jpg"
+        },
+        {
+          "plantName": "Corn",
+          "location": "Zone 7",
+          "plantDate": "On or around April 1st",
+          "imageUrl": "images/shutterstock_616104491-scaled.jpg"
+        },
+        {
+          "plantName": "Snap Peas",
+          "location": "Zone 7",
+          "plantDate": "Plant in succession around the end of February",
+          "imageUrl": "images/sugar_snap_peas.jpg"
+        },
+        {
+          "plantName": "Carrots",
+          "location": "Zone 7",
+          "plantDate": "Around mid-March",
+          "imageUrl": "images/Carrots-in-Containers-.jpg"
+        },
+        {
+          "plantName": "Peppers",
+          "location": "Zone 7",
+          "plantDate": "On or around April 1st",
+          "imageUrl": "images/bell-pepper.jpg"
+        },
+        {
+          "plantName": "Zucchini",
+          "location": "Zone 7",
+          "plantDate": "On or around April 1st",
+          "imageUrl": "images/zucchini.jpg"
+        }
   ]

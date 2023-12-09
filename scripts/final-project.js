@@ -2,68 +2,68 @@
 
 /* Declare and initialize global variables */
 
-const templesElement = document.getElementById('temples');
-let templeList = [];
+const plantsElement = document.getElementById('plants');
+let plantList = [];
 
-/* async displayTemples Function */
+/* async displayPlants Function */
 
-const displayTemples = (temples) => {
-   temples.forEach((temple) =>{
+const displayPlants = (plants) => {
+   plants.forEach((plant) =>{
     let article = document.createElement('article');
-    // temple name element
-    let templeName = document.createElement('h3');
-    templeName.textContent = temple.templeName;
-    // temple image element
+    // plant name element
+    let plantName = document.createElement('h3');
+    plantName.textContent = plant.plantName;
+    // plant image element
     let img = document.createElement('img');
-    img.setAttribute('src', temple.imageUrl);
-    img.setAttribute('alt', temple.templeName);
-    //temple location element
+    img.setAttribute('src', plant.imageUrl);
+    img.setAttribute('alt', plant.plantName);
+    //plant zone element
     let location = document.createElement('h4');
-    location.textContent = temple.location;
+    location.textContent = plant.location;
     //append child
-    article.appendChild(templeName);
+    article.appendChild(plantName);
     article.appendChild(img);
     article.appendChild(location);
-    document.querySelector('#temples').appendChild(article);
+    document.querySelector('#plants').appendChild(article);
    });
 };
 
 
-/* async getTemples Function using fetch()*/
+/* async getPlants Function using fetch()*/
 
-const getTemples = async() => {
+const getPlants = async() => {
   const response = await fetch(
-    'scripts/plants.json'
+    'https://jjbeukers.github.io/cse121b/scripts/plants.json'
   );
-  templeList = await response.json();
-  displayTemples(templeList);
+  plantList = await response.json();
+  displayPlants(plantList);
 };
 
-getTemples();
+getPlants();
 
 /* reset Function */
 
 const reset = () => {
-  document.querySelector('#temples').innerHTML = '';
+  document.querySelector('#plants').innerHTML = '';
 }
 
 /* sortBy Function */
 
-const sortBy = (temples) => {
+const sortBy = (plants) => {
     reset();
     const filter = document.getElementById('sortBy').value;
     switch (filter) {
       case 'utah':
-        displayTemples(temples.filter((temple) => temple.location.includes('Utah')));
+        displayPlants(plants.filter((plant) => plant.location.includes('Utah')));
         break;
       case 'notutah':
-        displayTemples(temples.filter((temple) => !temple.location.includes('Utah')));
+        displayPlants(plants.filter((plant) => !plant.location.includes('Utah')));
         break;
       case 'older':
-        displayTemples(temples.filter((temple) => new Date(temple.dedicated) < new Date(1950, 0, 1)));
+        displayPlants(plants.filter((plant) => new Date(plant.plantDate) < new Date(1950, 0, 1)));
         break;
       case 'all':
-        displayTemples(temples);
+        displayPlants(plants);
         break;
       default:
         console.log('Invalid filter');
@@ -72,6 +72,6 @@ const sortBy = (temples) => {
 
 /* Event Listener */
 
-document.getElementById('sortBy').addEventListener('change', () => {sortBy(templeList)});
+document.getElementById('sortBy').addEventListener('change', () => {sortBy(plantList)});
 
-getTemples();
+getPlants();
