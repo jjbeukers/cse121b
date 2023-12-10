@@ -2,79 +2,79 @@
     {
       "plantName": "Tomatoes",
       "location": "Zone 4",
-      "plantDate": "On or around May 15th",
+      "plantDate": "Plant: On or around May 15th",
       "imageUrl": "images/red-ripe-tomato-plants.jpg"
     },
     {
       "plantName": "Corn",
       "location": "Zone 4",
-      "plantDate": "On or around June 1st",
+      "plantDate": "Plant: On or around June 1st",
       "imageUrl": "images/shutterstock_616104491-scaled.jpg"
     },
     {
       "plantName": "Snap Peas",
       "location": "Zone 4",
-      "plantDate": "Plant in succession starting mid-April",    
+      "plantDate": "Plant: In succession starting mid-April",    
       "imageUrl": "images/sugar_snap_peas.jpg"
     },
     {
       "plantName": "Carrots",
       "location": "Zone 4",
-      "plantDate": "On or around June 1st",
+      "plantDate": "Plant: On or around June 1st",
       "imageUrl": "images/Carrots-in-Containers-.jpg"
     },
     {
       "plantName": "Peppers",
       "location": "Zone 4",
-      "plantDate": "On or around May 15th",
+      "plantDate": "Plant: On or around May 15th",
       "imageUrl": "images/bell-pepper.jpg"
     },
     {
       "plantName": "Zucchini",
       "location": "Zone 4",
-      "plantDate": "On or around May 15th",
+      "plantDate": "Plant: On or around May 15th",
       "imageUrl": "images/zucchini.jpg"
     },
     {
         "plantName": "Tomatoes",
         "location": "Zone 5",
-        "plantDate": "On or around April 15th",
+        "plantDate": "Plant: On or around April 15th",
         "imageUrl": "images/red-ripe-tomato-plants.jpg"
       },
       {
         "plantName": "Corn",
         "location": "Zone 5",
-        "plantDate": "On or around May 1st",
+        "plantDate": "Plant: On or around May 1st",
         "imageUrl": "images/shutterstock_616104491-scaled.jpg"
       },
       {
         "plantName": "Snap Peas",
         "location": "Zone 5",
-        "plantDate": "Plant in succession starting mid-March",
+        "plantDate": "Plant: In succession starting mid-March",
         "imageUrl": "images/sugar_snap_peas.jpg"
       },
       {
         "plantName": "Carrots",
         "location": "Zone 5",
-        "plantDate": "Around mid-April",
+        "plantDate": "Plant: Around mid-April",
         "imageUrl": "images/Carrots-in-Containers-.jpg"
       },
       {
         "plantName": "Peppers",
         "location": "Zone 5",
-        "plantDate": "On or around May 1st",
+        "plantDate": "Plant: On or around May 1st",
         "imageUrl": "images/bell-pepper.jpg"
       },
       {
         "plantName": "Zucchini",
         "location": "Zone 5",
-        "plantDate": "On or around May 1st",
+        "plantDate": "Plant: On or around May 1st",
         "imageUrl": "images/zucchini.jpg"
       },
       {
         "plantName": "Tomatoes",
         "location": "Zone 6",
-        "plantDate": "On or around March 1st",
+        "plantDate": "Plant: On or around March 1st",
         "imageUrl": "images/red-ripe-tomato-plants.jpg"
       },
       {

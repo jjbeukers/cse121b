@@ -20,10 +20,14 @@ const displayPlants = (plants) => {
     //plant zone element
     let location = document.createElement('h4');
     location.textContent = plant.location;
+    // plant date element
+    let plantDate = document.createElement('h5');
+    plantDate.textContent = plant.plantDate;
     //append child
     article.appendChild(plantName);
     article.appendChild(img);
     article.appendChild(location);
+    article.appendChild(plantDate);
     document.querySelector('#plants').appendChild(article);
    });
 };
